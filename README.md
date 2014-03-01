@@ -18,5 +18,5 @@ Modules
 -	Neural Network Kernel: This is the core of the BackBrush. After parser feeds the attributes this core will determine where to start drawing, which to draw and how to draw. It will determine the colors and shapes of the models.
 
 -	A Webgl based , artificial constrained drawing tool: After having direction of which to draw and how to draw, it will get the shape from the kernel and start drawing. We will set artificial constrains, like hand movement limitations to it. We think without restricting or rather forcing it train the program to draw like a human artist, it will never draw like a human artist. If it has a constrain, it will find a different way. For example, it is not possible for a human artist to draw a circle at one stroke perfectly. So an artist makes little corrections along the way and make small progress at a time by wrist movements. BackBrush will learn to draw like that way, and after learning it will serve the shapes like human do art.
--	
+
 Alternatively, if this system does not work, this drawing tool will converts the shapes into triangles, which is called triangulation. Then it will start to create the shapes by fitting this triangles. Part of it will be done by webgl.
